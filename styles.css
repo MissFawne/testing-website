@@ -114,9 +114,9 @@ hr {
 
 .wordmark-c {
   display: inline-block;
-  height: 1.10em;
+  height: 1.20em;
   width: auto;
-  margin: 0 -1.0em 0 -0.01em;
+  margin: 0 -1.5em 0 -0.01em;
   vertical-align: baseline;
   align-self: flex-end;
   transform: translateY(0.05em);
