@@ -1,7 +1,7 @@
 /* ============================================
-   THE CANOPY — Stylesheet v1
-   Palette: Cream #F8F4EA · Forest #243228 · Sage #8A9A7E · Dusty Rose #C99488
-   Type: Playfair Display (display) · Inter (body) · JetBrains Mono (accent)
+   THE CANOPY â€” Stylesheet v1
+   Palette: Cream #F8F4EA Â· Forest #243228 Â· Sage #8A9A7E Â· Dusty Rose #C99488
+   Type: Playfair Display (display) Â· Inter (body) Â· JetBrains Mono (accent)
    ============================================ */
 
 :root {
@@ -114,12 +114,12 @@ hr {
 
 .wordmark-c {
   display: inline-block;
-  height: 1.50em;
+  height: 1.15em;
   width: auto;
-  margin: 0 -2.5em 0 -0.01em;
+  margin: 0 -0.12em 0 -0.05em;
   vertical-align: baseline;
   align-self: flex-end;
-  transform: translateY(0.05em);
+  transform: translateY(0.08em);
 }
 
 .primary-nav {
