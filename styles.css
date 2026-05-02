@@ -116,7 +116,7 @@ hr {
   display: inline-block;
   height: 0.95em;
   width: auto;
-  margin: 0 0.02em 0 0.02em;
+  margin: 0 0.02em 0 -0.01em;
   vertical-align: baseline;
   align-self: flex-end;
   transform: translateY(0.05em);
