@@ -501,7 +501,8 @@ hr {
 .footer-logo {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  align-items: flex-start;
+  margin: 0;
 }
 
 .footer-logo img {
