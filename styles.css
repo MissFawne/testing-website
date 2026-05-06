@@ -311,7 +311,7 @@ hr {
 .section-label {
   font-family: var(--mono);
   font-size: 15px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 500;
 }
