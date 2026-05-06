@@ -460,6 +460,7 @@ hr {
   padding: 60px var(--gutter) 40px;
 }
 
+
 .footer-inner {
   display: flex;
   justify-content: space-between;
@@ -505,6 +506,26 @@ hr {
   color: var(--grey-light);
   text-align: center;
   text-transform: uppercase;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.footer-logo img {
+  width: 80px;
+  height: auto;
+  opacity: 0.85;
+}
+
+.copyright a {
+  color: var(--rose);
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
 }
 
 /* ============================================
