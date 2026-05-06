@@ -611,22 +611,14 @@ hr {
 .footer-logo {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 0;
 }
 
-.footer-nav {
-  text-align: right;
-}
-
-   
-  .footer-nav {
-    text-align: left;
-  }
-
-  .footer-wordmark {
-    font-size: 24px;
-  }
+.footer-logo img {
+  width: 150px;
+  height: auto;
+  opacity: 0.85;
 }
 
 /* ============================================
