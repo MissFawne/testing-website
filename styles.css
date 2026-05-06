@@ -518,6 +518,7 @@ hr {
   color: var(--grey-light);
   text-align: center;
   text-transform: uppercase;
+  transform: translateX(12px);
 }
 
 .copyright a {
