@@ -80,12 +80,13 @@ hr {
 
 .tagline {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 3px;
   color: var(--grey);
   text-align: center;
   margin-bottom: 40px;
   text-transform: uppercase;
+  font-weight: 400; 
 }
 
 .tagline-place {
@@ -385,8 +386,9 @@ hr {
 
 .product-price {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--rose);
+  font-weight: 400; 
 }
 
 /* ============================================
