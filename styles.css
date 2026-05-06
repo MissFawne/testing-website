@@ -80,7 +80,7 @@ hr {
 
 .tagline {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 3px;
   color: var(--grey);
   text-align: center;
@@ -136,7 +136,7 @@ hr {
 
 .primary-nav a {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 2px;
   color: var(--forest);
   text-transform: uppercase;
