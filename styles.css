@@ -619,6 +619,7 @@ hr {
   width: 150px;
   height: auto;
   opacity: 0.85;
+  transform: translateX(-12px);
 }
 
 /* ============================================
