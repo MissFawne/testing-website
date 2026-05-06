@@ -510,11 +510,11 @@ hr {
 .footer-logo {
   display: flex;
   justify-content: center;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .footer-logo img {
-  width: 80px;
+  width: 15px;
   height: auto;
   opacity: 0.85;
 }
