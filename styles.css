@@ -515,26 +515,22 @@ hr {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
+  gap: 12px;
   font-family: var(--mono);
   font-size: 10px;
   letter-spacing: 3px;
   color: var(--grey-light);
   text-transform: uppercase;
-  gap: 12px;
 }
 
-.copyright-left {
+.copyright span:first-child {
   text-align: right;
 }
 
-.copyright-right {
+.copyright span:last-child {
   text-align: left;
 }
 
-.copyright-dot {
-  /* dot sits in the middle column, dead center on the page */
-}
-
 .copyright a {
   color: var(--rose);
   text-decoration: none;
@@ -543,14 +539,7 @@ hr {
 .copyright a:hover {
   text-decoration: underline;
 }
-.copyright a {
-  color: var(--rose);
-  text-decoration: none;
-}
 
-.copyright a:hover {
-  text-decoration: underline;
-}
 
 /* ============================================
    MOBILE
@@ -634,8 +623,7 @@ hr {
 .footer-logo {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  margin: 0;
+  margin: 20px 0;
 }
 
 .footer-logo img {
