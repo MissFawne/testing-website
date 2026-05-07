@@ -639,10 +639,12 @@ hr {
 }
 
 .footer-logo img {
-  width: 150px;
-  height: auto;
-  opacity: 0.85;
-  transform: translateX(-50px);
+  width: 150px !important;
+  height: auto !important;
+  opacity: 0.85 !important;
+  transform: translateX(-50px) !important;
+  position: relative !important;
+  left: 0 !important;
 }
 
 /* ============================================
