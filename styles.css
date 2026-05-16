@@ -1202,11 +1202,13 @@ hr {
     width: 100px;
   }
  
-  .footer-nav {
-    order: 3;
-    text-align: center;
-    align-items: center;
-  }
+ .footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
  
   .copyright {
     display: flex;
