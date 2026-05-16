@@ -1,8 +1,4 @@
-/* ============================================
-   THE CANOPY — Stylesheet v2 (clean)
-   Palette: Cream #F8F4EA · Forest #3D4A33 · Sage #8A9A7E · Dusty Rose #C99488
-   Type: Playfair Display (display) · Inter (body) · JetBrains Mono (accent)
-   ============================================ */
+
 
 :root {
   --cream: #F8F4EA;
@@ -517,6 +513,111 @@ hr {
 }
 
 /* ============================================
+   CORPORATE PAGE / ENQUIRY FORM
+   ============================================ */
+
+.corporate-page {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.corporate-intro {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--grey);
+  max-width: 620px;
+  margin: 24px 0 0;
+}
+
+.rose-rule-left {
+  margin: 40px 0 48px;
+}
+
+.enquiry-form {
+  max-width: 720px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field-full {
+  margin-bottom: 32px;
+}
+
+.form-field label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--forest);
+  margin-bottom: 10px;
+}
+
+.form-field label .optional {
+  color: var(--grey-light);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  font-family: var(--sans);
+  font-size: 15px;
+  color: var(--forest);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(61, 74, 51, 0.3);
+  padding: 10px 0;
+  border-radius: 0;
+  transition: border-color 0.2s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form-field textarea {
+  border: 1px solid rgba(61, 74, 51, 0.3);
+  padding: 14px;
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--rose);
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+  color: var(--grey-light);
+  opacity: 0.7;
+}
+
+.form-field select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2210%22%20height%3D%226%22%20viewBox%3D%220%200%2010%206%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1%201l4%204%204-4%22%20stroke%3D%22%233D4A33%22%20stroke-width%3D%221%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 4px center;
+  padding-right: 24px;
+}
+
+.enquiry-form .btn-outline {
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+/* ============================================
    MOBILE
    ============================================ */
 
@@ -598,6 +699,12 @@ hr {
     flex-wrap: wrap;
     gap: 8px;
     font-size: 9px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
   }
 }
 
