@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corporate & Bulk Gifting — The Canopy · Grand Cayman</title>
+  <meta name="description" content="Considered plant gifting at scale for client appreciation, team milestones, and events across Grand Cayman.">
+
+  <link rel="icon" type="image/png" href="clogo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <p class="tagline">A NEW HOUSE OF BOTANICALS&nbsp;&nbsp;|&nbsp;&nbsp;<span class="tagline-place">GRAND CAYMAN</span></p>
+
+    <h1 class="wordmark">
+      <a href="index.html" style="display:flex;align-items:baseline;justify-content:center;color:inherit;">
+        <span class="wordmark-the">The&nbsp;</span><img class="wordmark-c" src="clogo.png" alt="C"><span class="wordmark-rest">anopy</span>
+      </a>
+    </h1>
+
+    <nav class="primary-nav">
+      <ul>
+        <li><a href="index.html#shop">SHOP</a></li>
+        <li><a href="index.html#bundles">BUNDLES</a></li>
+        <li><a href="index.html#gift-cards">GIFT CARDS</a></li>
+        <li><a href="corporate.html">CORPORATE GIFTING</a></li>
+        <li><a href="index.html#cart" class="cart-link">CART (0)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CORPORATE ENQUIRY -->
+  <section class="section corporate-page">
+    <p class="section-label"><span class="num">N°03</span> <span class="dim">— CORPORATE &amp; BULK GIFTING</span></p>
+    <h2 class="section-title">Considered gifting,<br>at scale.</h2>
+
+    <p class="corporate-intro">
+      Plant gifting for client appreciation, team milestones, and events across Grand Cayman.
+      Considered gifts from $65. Volume pricing available for events and conferences.
+      Tell us what you have in mind and we'll prepare a tailored proposal.
+    </p>
+
+    <hr class="rose-rule rose-rule-left">
+
+    <!-- ==========================================================
+         FORM SETUP — REQUIRED BEFORE THIS WORKS:
+         1. Go to https://formspree.io and create a free account
+         2. Create a new form, copy your form endpoint
+            (looks like: https://formspree.io/f/abcdwxyz)
+         3. Replace YOUR_FORMSPREE_ENDPOINT below with that URL
+         Until you do this, the form will not send anything.
+    ========================================================== -->
+    <form class="enquiry-form" action="YOUR_FORMSPREE_ENDPOINT" method="POST">
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="email">Work email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label for="phone">Phone <span class="optional">(optional)</span></label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="gift-type">Gift type</label>
+          <select id="gift-type" name="gift-type" required>
+            <option value="" disabled selected>Select one</option>
+            <option>Client gifts</option>
+            <option>Employee gifts</option>
+            <option>Event or conference</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="quantity">Estimated quantity</label>
+          <select id="quantity" name="quantity" required>
+            <option value="" disabled selected>Select a range</option>
+            <option>1–10</option>
+            <option>11–25</option>
+            <option>26–50</option>
+            <option>51–100</option>
+            <option>100+</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="budget">Budget per gift</label>
+          <select id="budget" name="budget" required>
+            <option value="" disabled selected>Select a range</option>
+            <option>Under $65 (bulk / event volume)</option>
+            <option>$65–85</option>
+            <option>$85–125</option>
+            <option>$125–175</option>
+            <option>$175+</option>
+            <option>Flexible</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="delivery">Delivery</label>
+          <select id="delivery" name="delivery" required>
+            <option value="" disabled selected>Select one</option>
+            <option>Single location</option>
+            <option>Multiple addresses</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-field">
+          <label for="occasion">Occasion</label>
+          <input type="text" id="occasion" name="occasion" placeholder="e.g. year-end client thank-you">
+        </div>
+        <div class="form-field">
+          <label for="timeline">Needed by</label>
+          <input type="text" id="timeline" name="timeline" placeholder="e.g. mid-December, or ongoing">
+        </div>
+      </div>
+
+      <div class="form-field form-field-full">
+        <label for="message">Anything else</label>
+        <textarea id="message" name="message" rows="5" placeholder="Branding requests, custom notes, delivery details…"></textarea>
+      </div>
+
+      <button type="submit" class="btn-outline">GET IN TOUCH →</button>
+
+    </form>
+  </section>
+
+  <hr class="section-rule">
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-logo">
+      <img src="clogo.png" alt="The Canopy">
+    </div>
+
+    <nav class="footer-nav">
+      <a href="#instagram">INSTAGRAM</a>
+      <span class="footer-divider">|</span>
+      <a href="#contact">CONTACT</a>
+      <span class="footer-divider">|</span>
+      <a href="#care">CARE GUIDE</a>
+    </nav>
+
+    <div class="copyright">
+      <span>© THE CANOPY MMXXVI</span>
+      <span class="footer-divider">|</span>
+      <span>WEBSITE BY <a href="https://yourwebsite.com" target="_blank">YOUR NAME</a></span>
+    </div>
+  </footer>
+
+</body>
+</html>
