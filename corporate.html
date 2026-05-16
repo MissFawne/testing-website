@@ -48,9 +48,17 @@
       Tell us what you have in mind and we'll prepare a tailored proposal.
     </p>
 
-    <hr class="rose-rule rose-rule-left">
+    <!-- ==========================================================
+         FORM SETUP — REQUIRED BEFORE THIS WORKS:
+         1. Go to https://formspree.io and create a free account
+         2. Create a new form, copy your form endpoint
+            (looks like: https://formspree.io/f/abcdwxyz)
+         3. Replace YOUR_FORMSPREE_ENDPOINT below with that URL
+         Until you do this, the form will not send anything.
+    ========================================================== -->
+    <form class="enquiry-form" action="YOUR_FORMSPREE_ENDPOINT" method="POST">
 
-    <form class="enquiry-form" action="https://formspree.io/f/mkoydeaz" method="POST">
+      <p class="form-heading">Start your enquiry</p>
 
       <div class="form-row">
         <div class="form-field">
@@ -87,30 +95,11 @@
         </div>
         <div class="form-field">
           <label for="quantity">Estimated quantity</label>
-          <select id="quantity" name="quantity" required>
-            <option value="" disabled selected>Select a range</option>
-            <option>1–10</option>
-            <option>11–25</option>
-            <option>26–50</option>
-            <option>51–100</option>
-            <option>100+</option>
-          </select>
+          <input type="number" id="quantity" name="quantity" min="1" placeholder="e.g. 50" required>
         </div>
       </div>
 
       <div class="form-row">
-        <div class="form-field">
-          <label for="budget">Budget per gift</label>
-          <select id="budget" name="budget" required>
-            <option value="" disabled selected>Select a range</option>
-            <option>Under $65 (bulk / event volume)</option>
-            <option>$65–85</option>
-            <option>$85–125</option>
-            <option>$125–175</option>
-            <option>$175+</option>
-            <option>Flexible</option>
-          </select>
-        </div>
         <div class="form-field">
           <label for="delivery">Delivery</label>
           <select id="delivery" name="delivery" required>
@@ -119,17 +108,15 @@
             <option>Multiple addresses</option>
           </select>
         </div>
-      </div>
-
-      <div class="form-row">
         <div class="form-field">
           <label for="occasion">Occasion</label>
           <input type="text" id="occasion" name="occasion" placeholder="e.g. year-end client thank-you">
         </div>
-        <div class="form-field">
-          <label for="timeline">Needed by</label>
-          <input type="text" id="timeline" name="timeline" placeholder="e.g. mid-December, or ongoing">
-        </div>
+      </div>
+
+      <div class="form-field form-field-full">
+        <label for="timeline">Needed by</label>
+        <input type="text" id="timeline" name="timeline" placeholder="e.g. mid-December, or ongoing">
       </div>
 
       <div class="form-field form-field-full">
@@ -137,7 +124,7 @@
         <textarea id="message" name="message" rows="5" placeholder="Branding requests, custom notes, delivery details…"></textarea>
       </div>
 
-      <button type="submit" class="btn-outline">GET IN TOUCH →</button>
+      <button type="submit" class="btn-solid">GET IN TOUCH →</button>
 
     </form>
   </section>
